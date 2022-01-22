@@ -1,0 +1,50 @@
+body {
+    background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+/* Header */
+.header {
+    color: #f9faf8;
+    size: 24px;
+    font-style: bold;
+    }
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Intro */ 
+.intro {
+background-color: #1f2937;
+    color: #fff;
+}
+
+/* Bonsai Types */
+.bonsaiTypes {
+    background-color: #fff;
+}
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    size: 36px;
+    font-style: italic;  
+}
+
+/* Social */
+.social {
+    background-color: #1f2937;
+    color:#fff
+}
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-family: 'Roboto' arial;
+    size: 18px;
+}
