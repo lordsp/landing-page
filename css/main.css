@@ -16,16 +16,16 @@ body {
 .header {
     display: flex;
     color: #f9faf8;
-    size: 24px;
     font-style: bold;
     width: 100%;
-    height: 40px;
+    height: 30px;
     align-items: center;
 }
 
 .headerimg {
-   width: 50%; 
-   text-align: start;
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
 } 
 
 .headerlinks {
@@ -39,6 +39,7 @@ body {
     font-weight: bold;
     height: 40px;
     padding: 30px;
+    font-size: 30px;
 }
 
 /* Intro */ 
@@ -49,7 +50,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 200px;
 }
 
 .introText {
@@ -66,20 +67,26 @@ body {
 }
 
 .introImg {
-    width: 30%;
-    height: auto;
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    /*border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;*/
 }
 
 /* Bonsai Types */
 .bonsaiTypes {
     background-color: #fff;
-    height: 400px;
+    height: 600px;
     align-items: center;
     padding: 30px;
+    color: #1f2937;
 }
 
-.bonsayTypes h1 {
+.bonsaiTypes h1 {
 padding: 30px;
+font-size: 45px;
 }
 
 .cuadritos {
@@ -90,15 +97,20 @@ padding: 30px;
 
 .juls {
     display:flex;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     font-size: 30px;
+    flex-direction: column;
 }
 
 .juls img {
     border-radius: 30px;
-    border: 6px solid #DD2A7B;
+    border: 6px solid #DD2A7B;  
 
+}
+
+.juls p {
+    padding: 12px;
 }
 
 
@@ -112,13 +124,13 @@ padding: 30px;
 .quote {
     background-color: #E5E7EB;
     color: #1f2937;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 50px;
     align-items: center;
 }
 
 .quote p {
-    font-size: 36px;
+    font-size: 60px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -147,6 +159,7 @@ padding: 30px;
     background-color: #DD2A7B;
     border-radius: 15px;
     align-items: center;
+    justify-content: center;
 }
 
 .socialRect {
@@ -170,8 +183,10 @@ padding: 30px;
     border-color: #fff;
     font-size: 30px;
     border-radius: 25px;
-    border: 2px solid #fff;
+    border: 4px solid #fff;
     padding: 15px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 /* Footer */
@@ -179,7 +194,8 @@ padding: 30px;
     background-color: #1f2937;
     color: #E5E7EB;
     font-family: 'Roboto' arial;
-    padding: 30px;
+    font-size: 30px;
+    padding: 100px;
 }
 
 .responsive {
