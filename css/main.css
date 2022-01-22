@@ -58,31 +58,55 @@ body {
 }
 
 .introText h1 {
-
+    font-size: 120px;
 }
 
 .introText p {
+    font-size: 30px;
 }
 
 .introImg {
-    width: 50%;
+    width: 30%;
+    height: auto;
 }
 
 /* Bonsai Types */
 .bonsaiTypes {
     background-color: #fff;
-    height: 300px;
+    height: 400px;
     align-items: center;
     padding: 30px;
 }
 
 .bonsayTypes h1 {
-    
+padding: 30px;
 }
 
-.bonsaiTypes p {
-    padding-top: 30px;
+.cuadritos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
 }
+
+.juls {
+    display:flex;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+
+.juls img {
+    border-radius: 30px;
+    border: 6px solid #DD2A7B;
+
+}
+
+
+/* Aca s3b4d3v intento mentirle a Kaizen1G, y falló
+.juls p {
+    padding-top: 200px;
+}
+
 
 /* Quote */
 .quote {
@@ -156,4 +180,9 @@ body {
     color: #E5E7EB;
     font-family: 'Roboto' arial;
     padding: 30px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
